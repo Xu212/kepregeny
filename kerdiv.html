@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Xu Jiyu</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Kérdőív</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Képregény</a></li>
+                <li><a href="kerdiv.html">Kérdőív</a></li>
+            </ul>
+        </nav>
+        <article>
+            <form action="/action_page.php" method="post">
+                <label for="kerd">Mennyire tetszett az oldal alakítás?</label><br>
+                <div class="kerdoiv1">
+                    <div><input type="radio" id="oldalb" name="oldalb">
+                        <label for="oldall">Nem tetszett</label>
+                    </div>
+                    <div><input type="radio" id="oldalb" name="oldalb">
+                        <label for="oldall">Lehetne jobb</label>
+                    </div>
+                    <div><input type="radio" id="oldalb" name="oldalb">
+                        <label for="oldall">Nem rossz</label>
+                    </div>
+                    <div><input type="radio" id="oldalb" name="oldalb">
+                        <label for="oldall">Imádom</label>
+                    </div>
+                </div>
+
+                <div class="kerdoiv">
+                    <label for="kerd">Mennyire volt jó design?</label><br>
+                    <select name="ert" id="ert">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <div class="kerdoiv"><label for="egyebb">Egyébb megjegyzés:</label><br><textarea name="egyebb" id="egyebb" cols="50"
+                        rows="10"></textarea></div>
+                <input type="submit" value="Küldés">
+            </form>
+        </article>
+        <footer>&copy;Készítette: Xu Jiyu</footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body{
+    background-color: grey;
+}
+main{
+    width: 1300px;
+    margin:auto;
+    background-color: white;
+}
+.kepr{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav{
+    background-color: black;
+}
+footer{
+    font-size: 20px;
+    
+}
+.kepr,header h1, footer{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+form{
+    width: 500px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.kerdoiv1{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:1300px){
+    .szulo{
+        display:flex;
+        
+    }
+    a{
+        font-size: 20px;
+    }
+    .szulo,ul{
+        flex-direction: column;
+    }
+    main{
+        text-align: center;
+    }
+    .kerdoiv1{
+        flex-direction: column;
+    }
+}
